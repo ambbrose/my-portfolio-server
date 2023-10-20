@@ -1,4 +1,4 @@
-import Logout from "@/components/logout-link";
+
 import SidebarNav from "@/components/side-bar-nav";
 
 const Sidebar = () => {
@@ -9,9 +9,7 @@ const Sidebar = () => {
 
             <SidebarNav />
 
-            {/* <div className="mt-2 w-full items-center justify-center flex absolute bottom-0 left-0 p-4">
-                <Logout />
-            </div> */}
+           
         </div>
     );
 };
